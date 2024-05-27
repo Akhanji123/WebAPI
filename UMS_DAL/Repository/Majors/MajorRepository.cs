@@ -17,6 +17,11 @@ namespace UMS_DAL.Repository.Majors
         {
         }
 
+        public IEnumerable<Entity> A(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public Entity GetByName(string name)
         {
             return _dbset.Where(x => x.MajorName == name).FirstOrDefault();

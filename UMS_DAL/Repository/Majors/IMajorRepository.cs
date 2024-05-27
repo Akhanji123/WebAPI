@@ -13,5 +13,6 @@ namespace UMS_DAL.Repository.Majors
     {
         Entity GetByName(String name);
         IEnumerable<Entity> GetMajorsByFacultyID(int id);
+        IEnumerable<Entity> A(int id);
     }
 }
